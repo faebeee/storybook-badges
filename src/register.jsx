@@ -15,16 +15,10 @@ const MyPanel = () => {
     }
 
     const available_badges = value.icons;
-
-    if (!value.badges) {
-        return null;
-    }
-    console.log(value.badges, available_badges);
-
     return (<div>
         <h2>Badges</h2>
-        { value.badges.map((badge, index) => (<img
-            key={ index }
+        { value.badges && value.badges.map((badge, index) => (<img
+            key={ badge }
             width={ value.icon_size }
             height={ value.icon_size }
             alt={ available_badges[badge].text }
