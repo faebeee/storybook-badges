@@ -1,37 +1,40 @@
 {
-    "name": "@faebeee/storybook-badges",
-    "version": "1.0.4",
-    "description": "",
-    "main": "lib/register.js",
-    "scripts": {
-        "build": "npx rollup -c rollup.config.js"
-    },
-    "author": "faebeee@gmail.com",
-    "repository": {
-        "type": "git",
-        "url": ""
-    },
-    "license": "ISC",
-    "dependencies": {},
-    "devDependencies": {
-        "@babel/core": "^7.10.1",
-        "@babel/preset-env": "^7.10.1",
-        "@babel/preset-react": "^7.10.1",
-        "@storybook/addons": "^5.3.19",
-        "@babel/plugin-syntax-dynamic-import": "^7.8.3",
-        "@babel/plugin-transform-runtime": "^7.10.1",
-        "@rollup/plugin-babel": "^5.0.2",
-        "@rollup/plugin-commonjs": "^12.0.0",
-        "@rollup/plugin-node-resolve": "^8.0.0",
-        "@storybook/api": "^5.3.19",
-        "@storybook/components": "^5.3.19",
-        "rollup-plugin-inline-js": "^0.4.0",
-        "react": "^16.13.1",
-        "rollup-plugin-babel": "^4.4.0",
-        "rollup-plugin-commonjs": "^10.1.0",
-        "rollup-plugin-jsx": "^1.0.3",
-        "rollup-plugin-node-resolve": "^5.2.0",
-        "styled-jsx": "^3.3.0",
-        "typescript": "^3.9.3"
-    }
+  "name": "@faebeee/storybook-badges",
+  "version": "1.0.4",
+  "description": "Storybook addon to add a new Tab which can show a  status of the shown component. So you can easily keep track of the state of a component. For example you can visualize if it's already release. Or if its a draft or needs a redesign or if it's still in de",
+  "main": "lib/register.js",
+  "scripts": {
+    "build": "npx rollup -c rollup.config.js"
+  },
+  "author": "faebeee@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.10.1",
+    "@babel/preset-env": "^7.10.1",
+    "@babel/preset-react": "^7.10.1",
+    "@storybook/addons": "^5.3.19",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.10.1",
+    "@rollup/plugin-babel": "^5.0.2",
+    "@rollup/plugin-commonjs": "^12.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.0",
+    "@storybook/api": "^5.3.19",
+    "@storybook/components": "^5.3.19",
+    "rollup-plugin-inline-js": "^0.4.0",
+    "react": "^16.13.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-jsx": "^1.0.3",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "styled-jsx": "^3.3.0",
+    "typescript": "^3.9.3"
+  },
+  "keywords": [
+    "storybook-addon"
+  ]
 }
